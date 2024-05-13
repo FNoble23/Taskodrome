@@ -18,6 +18,8 @@ $s_plugin_Taskodrome_config_title = 'Настройка плагина Taskodrom
 
 $s_plugin_Taskodrome_default_value = 'По умолчанию:<br>%s<br>';
 
+$s_plugin_Taskodrome_status_board_first_label = 'Status board view preferred';
+
 $s_plugin_Taskodrome_status_board_order_label = 'Порядок статусов';
 
 $s_plugin_Taskodrome_cooldown_period_label = 'Период "остывания" задачи';

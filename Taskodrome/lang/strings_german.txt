@@ -18,6 +18,8 @@ $s_plugin_Taskodrome_config_title = 'Taskodrome Plugin Konfiguration';
 
 $s_plugin_Taskodrome_default_value = 'Standardwert:<br>%s<br>';
 
+$s_plugin_Taskodrome_status_board_first_label = 'Status board Ansicht bevorzugt';
+
 $s_plugin_Taskodrome_status_board_order_label = 'Statusübersicht - Sortierung';
 
 $s_plugin_Taskodrome_cooldown_period_label = 'Cooldown Zeitraum';
