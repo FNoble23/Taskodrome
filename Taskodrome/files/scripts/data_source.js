@@ -39,7 +39,8 @@ var DataSource = (function() {
         priority: el.getAttribute("priority"),
         priorityCode: parseInt(el.getAttribute("priorityCode"), 10),
         reproducibility: el.getAttribute("reproducibility"),
-        version: el.getAttribute("version")
+        version: el.getAttribute("version"),
+        relation: el.getAttribute("relation")
       };
     }
 
@@ -49,7 +50,7 @@ var DataSource = (function() {
   var IssuesRaw = function() {
     return m_issues_raw;
   };
-
+  
   function getStatusBoardFirst() {
     var statusBoardFirst = document.getElementById("status_board_first").getAttribute("value") == "1";
     return statusBoardFirst;
@@ -274,7 +275,7 @@ var DataSource = (function() {
     for (var i = 0; i != rels.length; ++i) {
       var el = rels[i];
       if (el.getAttribute("src_project_id") == el.getAttribute("dest_project_id")
-        && el.getAttribute("type") == 2) {
+      && el.getAttribute("type") == 2) {        
         ret.push({ id : parseInt(el.getAttribute("id"), 10),
           src_project_id : parseInt(el.getAttribute("src_project_id"), 10),
           dest_project_id : parseInt(el.getAttribute("dest_project_id"), 10),
