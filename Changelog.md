@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## 2.1.10 2024-06-06
+## Changed 
+- Applied open PR (2.1.19)
+- Global filters are no longer applied to the Taskodrome-View
+
 ## 2.1.8 - 2021-02-14
 ### Changed
 - Applied PR https://github.com/mantisbt-plugins/Taskodrome/pull/315

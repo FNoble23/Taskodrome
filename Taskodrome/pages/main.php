@@ -34,8 +34,10 @@
   $t_per_page = -1;
   $t_bug_count = null;
   $t_page_count = null;
+  $t_dummy_filter = array();
+  $t_dummy_filter['id'] = 9999;
 
-  $rows = filter_get_bug_rows( $f_page_number, $t_per_page, $t_page_count, $t_bug_count, null, null, null, true );
+  $rows = filter_get_bug_rows( $f_page_number, $t_per_page, $t_page_count, $t_bug_count, $t_dummy_filter, null, null, true );
 
   function write_bug_rows( $p_rows )
   {
